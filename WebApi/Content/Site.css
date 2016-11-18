@@ -1,0 +1,67 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+div {
+    display:inline-block; 
+    margin:20px;
+}
+#tableBlock {
+    width:auto;
+}
+#editBlock {
+    display:none;
+    float:right;
+}
+#createBlock {
+    float:right;
+}
+
+.tabs{
+	display:inline-block;
+}
+.tabs > div{
+	padding-top:10px;
+}
+.tabs ul{
+	margin:0px;
+	padding:0px;
+}
+.tabs ul:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:5px;
+	background:#46c765;
+}
+.tabs ul li{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	display:block;
+	float:left;
+	padding:10px 15px;
+	background:#e9eaeb;
+	color:#707070;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+	background:#46c765;
+	color:#fff;
+}
+.tabs ul li:hover{
+	background:#d6d6d7;
+}
